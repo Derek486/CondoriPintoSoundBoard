@@ -47,9 +47,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = tablaGrabaciones.dequeueReusableCell(withIdentifier: "cellRecord", for: indexPath)
         let grabacion = grabaciones[indexPath.row]
         cell.textLabel?.text = grabacion.nombre
+        do {
+            let audio = try AVAudioPlayer(data: grabacion.audio! as Data)
+            let formatter = DateComponentsFormatter()
+            formatter.allowedUnits = [.hour, .minute, .second]
+            formatter.unitsStyle = .short
+            cell.detailTextLabel?.text = "Duracion: \(formatter.string(from: audio.duration)!)"
+        } catch {}
         return cell
     }
     

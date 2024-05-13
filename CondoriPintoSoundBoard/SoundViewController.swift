@@ -15,6 +15,7 @@ class SoundViewController: UIViewController {
     @IBOutlet weak var nombreTextField: UITextField!
     @IBOutlet weak var reproducirButton: UIButton!
     @IBOutlet weak var grabarButton: UIButton!
+    @IBOutlet weak var duracionGrabacion: UILabel!
     
     var grabarAudio: AVAudioRecorder?
     var reproducirAudio: AVAudioPlayer?
@@ -84,6 +85,13 @@ class SoundViewController: UIViewController {
         if grabarAudio!.isRecording {
             grabarAudio?.stop()
             grabarButton?.setTitle("GRABAR", for: .normal)
+            do {
+                let audio = try AVAudioPlayer(contentsOf: audioURL!)
+                let formatter = DateComponentsFormatter()
+                formatter.allowedUnits = [.hour, .minute, .second]
+                formatter.unitsStyle = .short
+                duracionGrabacion.text = formatter.string(from: audio.duration)
+            } catch {}
             reproducirButton.isEnabled = true
             agregarButton.isEnabled = true
         } else {
