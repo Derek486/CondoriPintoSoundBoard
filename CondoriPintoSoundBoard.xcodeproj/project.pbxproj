@@ -14,6 +14,7 @@
 		FFACC6142BF28F330034BF9B /* CondoriPintoSoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFACC6122BF28F330034BF9B /* CondoriPintoSoundBoard.xcdatamodeld */; };
 		FFACC6162BF28F340034BF9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFACC6152BF28F340034BF9B /* Assets.xcassets */; };
 		FFACC6192BF28F340034BF9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFACC6172BF28F340034BF9B /* LaunchScreen.storyboard */; };
+		FFACC6252BF298440034BF9B /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFACC6242BF298440034BF9B /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FFACC6152BF28F340034BF9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFACC6182BF28F340034BF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFACC61A2BF28F340034BF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFACC6242BF298440034BF9B /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FFACC60B2BF28F330034BF9B /* SceneDelegate.swift */,
 				FFACC60D2BF28F330034BF9B /* ViewController.swift */,
 				FFACC60F2BF28F330034BF9B /* Main.storyboard */,
+				FFACC6242BF298440034BF9B /* SoundViewController.swift */,
 				FFACC6152BF28F340034BF9B /* Assets.xcassets */,
 				FFACC6172BF28F340034BF9B /* LaunchScreen.storyboard */,
 				FFACC61A2BF28F340034BF9B /* Info.plist */,
@@ -145,6 +148,7 @@
 				FFACC60E2BF28F330034BF9B /* ViewController.swift in Sources */,
 				FFACC60A2BF28F330034BF9B /* AppDelegate.swift in Sources */,
 				FFACC60C2BF28F330034BF9B /* SceneDelegate.swift in Sources */,
+				FFACC6252BF298440034BF9B /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
