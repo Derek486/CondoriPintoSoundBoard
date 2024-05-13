@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFACC60A2BF28F330034BF9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFACC6092BF28F330034BF9B /* AppDelegate.swift */; };
+		FFACC60C2BF28F330034BF9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFACC60B2BF28F330034BF9B /* SceneDelegate.swift */; };
+		FFACC60E2BF28F330034BF9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFACC60D2BF28F330034BF9B /* ViewController.swift */; };
+		FFACC6112BF28F330034BF9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFACC60F2BF28F330034BF9B /* Main.storyboard */; };
+		FFACC6142BF28F330034BF9B /* CondoriPintoSoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFACC6122BF28F330034BF9B /* CondoriPintoSoundBoard.xcdatamodeld */; };
+		FFACC6162BF28F340034BF9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFACC6152BF28F340034BF9B /* Assets.xcassets */; };
+		FFACC6192BF28F340034BF9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFACC6172BF28F340034BF9B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFACC6062BF28F330034BF9B /* CondoriPintoSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CondoriPintoSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFACC6092BF28F330034BF9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFACC60B2BF28F330034BF9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFACC60D2BF28F330034BF9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFACC6102BF28F330034BF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFACC6132BF28F330034BF9B /* CondoriPintoSoundBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CondoriPintoSoundBoard.xcdatamodel; sourceTree = "<group>"; };
+		FFACC6152BF28F340034BF9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFACC6182BF28F340034BF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFACC61A2BF28F340034BF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFACC6032BF28F330034BF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFACC5FD2BF28F330034BF9B = {
+			isa = PBXGroup;
+			children = (
+				FFACC6082BF28F330034BF9B /* CondoriPintoSoundBoard */,
+				FFACC6072BF28F330034BF9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFACC6072BF28F330034BF9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFACC6062BF28F330034BF9B /* CondoriPintoSoundBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFACC6082BF28F330034BF9B /* CondoriPintoSoundBoard */ = {
+			isa = PBXGroup;
+			children = (
+				FFACC6092BF28F330034BF9B /* AppDelegate.swift */,
+				FFACC60B2BF28F330034BF9B /* SceneDelegate.swift */,
+				FFACC60D2BF28F330034BF9B /* ViewController.swift */,
+				FFACC60F2BF28F330034BF9B /* Main.storyboard */,
+				FFACC6152BF28F340034BF9B /* Assets.xcassets */,
+				FFACC6172BF28F340034BF9B /* LaunchScreen.storyboard */,
+				FFACC61A2BF28F340034BF9B /* Info.plist */,
+				FFACC6122BF28F330034BF9B /* CondoriPintoSoundBoard.xcdatamodeld */,
+			);
+			path = CondoriPintoSoundBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFACC6052BF28F330034BF9B /* CondoriPintoSoundBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFACC61D2BF28F340034BF9B /* Build configuration list for PBXNativeTarget "CondoriPintoSoundBoard" */;
+			buildPhases = (
+				FFACC6022BF28F330034BF9B /* Sources */,
+				FFACC6032BF28F330034BF9B /* Frameworks */,
+				FFACC6042BF28F330034BF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CondoriPintoSoundBoard;
+			productName = CondoriPintoSoundBoard;
+			productReference = FFACC6062BF28F330034BF9B /* CondoriPintoSoundBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFACC5FE2BF28F330034BF9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FFACC6052BF28F330034BF9B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FFACC6012BF28F330034BF9B /* Build configuration list for PBXProject "CondoriPintoSoundBoard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFACC5FD2BF28F330034BF9B;
+			productRefGroup = FFACC6072BF28F330034BF9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFACC6052BF28F330034BF9B /* CondoriPintoSoundBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFACC6042BF28F330034BF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFACC6192BF28F340034BF9B /* LaunchScreen.storyboard in Resources */,
+				FFACC6162BF28F340034BF9B /* Assets.xcassets in Resources */,
+				FFACC6112BF28F330034BF9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFACC6022BF28F330034BF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFACC6142BF28F330034BF9B /* CondoriPintoSoundBoard.xcdatamodeld in Sources */,
+				FFACC60E2BF28F330034BF9B /* ViewController.swift in Sources */,
+				FFACC60A2BF28F330034BF9B /* AppDelegate.swift in Sources */,
+				FFACC60C2BF28F330034BF9B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFACC60F2BF28F330034BF9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFACC6102BF28F330034BF9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFACC6172BF28F340034BF9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFACC6182BF28F340034BF9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFACC61B2BF28F340034BF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFACC61C2BF28F340034BF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFACC61E2BF28F340034BF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CondoriPintoSoundBoard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = empresa.CondoriPintoSoundBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFACC61F2BF28F340034BF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CondoriPintoSoundBoard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = empresa.CondoriPintoSoundBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFACC6012BF28F330034BF9B /* Build configuration list for PBXProject "CondoriPintoSoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFACC61B2BF28F340034BF9B /* Debug */,
+				FFACC61C2BF28F340034BF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFACC61D2BF28F340034BF9B /* Build configuration list for PBXNativeTarget "CondoriPintoSoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFACC61E2BF28F340034BF9B /* Debug */,
+				FFACC61F2BF28F340034BF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FFACC6122BF28F330034BF9B /* CondoriPintoSoundBoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FFACC6132BF28F330034BF9B /* CondoriPintoSoundBoard.xcdatamodel */,
+			);
+			currentVersion = FFACC6132BF28F330034BF9B /* CondoriPintoSoundBoard.xcdatamodel */;
+			path = CondoriPintoSoundBoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FFACC5FE2BF28F330034BF9B /* Project object */;
+}
